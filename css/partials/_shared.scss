@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Header */
+
+.head{
+  display: table; 
+  width: 100%;
+  height: 80px;
+  background-color: $headerBgColor;
+}
+.head-table{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+.head-table_logo{
+  height: 100%;
+  display: inline-block;
+}
+.head-table_logo h1{
+  height: 100%;
+  color: $logoTextColor;
+  font-family: 'Montserrat';
+  font-size: $font-size-large;
+}
+
+/* Navbar */
+
+.navbar{
+  width: 100%;
+  height: 30px;
+  background-color: $navbarBgColor;
+  display: block;
+}
+.navbar_item{
+  height:100%;
+  float: left;
+}
+.navbar_item a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+.navigation a:last-child{  
+  padding-left: 0px;      
+}
+.navbar_item a li{
+  height: 100%;
+  color: $navbarTextColor;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: $font-size-medium;
+}
+ 
+/* Footer */
+
+.footer{
+  display: table; 
+  width: 100%;
+  height: 80px;
+  background-color: $headerBgColor;
+}
+.footer-table{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+.footer-table_logo{
+  height: 100%;
+  display: inline-block;
+}
+.footer-table_logo h1{
+  height: 100%;
+  color: $logoTextColor;
+  font-family: 'Montserrat';
+  font-size: $font-size-large;
+}
+
+
+

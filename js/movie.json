@@ -1,0 +1,35 @@
+var movie = `[
+{
+	"titel": "Save the Last Dance", 
+	"description": "Best movie ever", 
+	"cover": "img/savethelastdance.png"
+} , {
+	"titel": "Fast & furious", 
+	"description": "Best movie ever", 
+	"cover": "img/fastfurious.png"
+} , {
+	"titel": "Step up 2", 
+	"description": "Best movie ever", 
+	"cover": "img/stepup2.png"
+} , {
+	"titel": "A Star is born", 
+	"description": "Best movie ever", 
+	"cover": "img/astarIisborn.png"
+} , {
+	"titel": "Intouchables",
+	"description": "Best movie ever", 
+	"cover": "img/intouchables.png"
+} , {
+	"titel": "Perfect pitch", 
+	"description": "Best movie ever", 
+	"cover": "img/perfectpitch.png"
+} , {
+	"titel": "Step up", 
+	"description": "Best movie ever", 
+	"cover": "img/stepup.png"
+} , {
+	"titel": "The Transporter", 
+	"description": "Best movie ever", 
+	"cover": "img/transporter.png"
+}
+]`

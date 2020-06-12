@@ -1,0 +1,55 @@
+@import './base/settings';
+@import './base/base';
+@import './partials/shared';
+
+
+
+.box{
+	background-color: red;
+	width: 80%;
+	margin: auto;
+	display: flex;
+
+}
+
+.flexContainer{
+	background-color: blue;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+}
+
+.flexRow{
+	background-color: green;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	
+}
+
+.productCard{
+	background-color: $cardBgColor;
+	width: 400px;
+	margin: 10px auto;
+	display: flex;
+	
+	border: 5px solid orange;
+}
+
+.productCard img{
+	width: 50%;
+} 
+
+.productCard h3, p{
+	color: $cardTextColor;
+	text-align: center;
+	width: 100%;
+}
+
+.productCard h3, p{
+	
+}
+
