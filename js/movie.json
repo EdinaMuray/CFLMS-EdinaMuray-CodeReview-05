@@ -1,35 +1,43 @@
 var movie = `[
 {
 	"titel": "Save the Last Dance", 
-	"description": "Best movie ever", 
-	"cover": "img/savethelastdance.png"
+	"description": "A white midwestern girl moves to Chicago, where her new boyfriend is a black teen from the South Side with a rough, semi-criminal past.", 
+	"cover": "img/savethelastdance.png",
+	"button" : "Like"
 } , {
 	"titel": "Fast & furious", 
-	"description": "Best movie ever", 
-	"cover": "img/fastfurious.png"
+	"description": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.", 
+	"cover": "img/fastfurious.png",
+	"button" : "Like"
 } , {
 	"titel": "Step up 2", 
-	"description": "Best movie ever", 
-	"cover": "img/stepup2.png"
+	"description": "Romantic sparks occur between two dance students from different backgrounds at the Maryland School of the Arts.", 
+	"cover": "img/stepup2.png",
+	"button" : "Like"
 } , {
 	"titel": "A Star is born", 
-	"description": "Best movie ever", 
-	"cover": "img/astarIisborn.png"
+	"description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.", 
+	"cover": "img/astarIisborn.png",
+	"button" : "Like"
 } , {
 	"titel": "Intouchables",
-	"description": "Best movie ever", 
-	"cover": "img/intouchables.png"
+	"description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.", 
+	"cover": "img/intouchables.png",
+	"button" : "Like"
 } , {
-	"titel": "Perfect pitch", 
-	"description": "Best movie ever", 
-	"cover": "img/perfectpitch.png"
+	"titel": "Pitch perfect", 
+	"description": "Beca, a freshman at Barden University, is cajoled into joining The Bellas, her school's all-girls singing group. Injecting some much needed energy into their repertoire, The Bellas take on their male rivals in a campus competition.", 
+	"cover": "img/perfectpitch.png",
+	"button" : "Like"
 } , {
 	"titel": "Step up", 
-	"description": "Best movie ever", 
-	"cover": "img/stepup.png"
+	"description": "Tyler Gage receives the opportunity of a lifetime after vandalizing a performing arts school, gaining him the chance to earn a scholarship and dance with an up and coming dancer, Nora.", 
+	"cover": "img/stepup.png",
+	"button" : "Like"
 } , {
 	"titel": "The Transporter", 
-	"description": "Best movie ever", 
-	"cover": "img/transporter.png"
+	"description": "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise.", 
+	"cover": "img/transporter.png",
+	"button" : "Like"
 }
 ]`

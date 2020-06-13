@@ -4,52 +4,61 @@
 
 
 
-.box{
-	background-color: red;
-	width: 80%;
-	margin: auto;
-	display: flex;
-
-}
-
-.flexContainer{
-	background-color: blue;
+.bigbox{
+	background-color: $bodyBgColor;
 	width: 100%;
 	margin: auto;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-  	justify-content: center;
+  	justify-content: space-around;
 }
 
-.flexRow{
-	background-color: green;
-	width: 100%;
-	margin: auto;
-	display: flex;
-	
-}
-
-.productCard{
+.smallbox{
 	background-color: $cardBgColor;
-	width: 400px;
-	margin: 10px auto;
+	width: 300px;
+	margin: 2% 100px; 
 	display: flex;
-	
-	border: 5px solid orange;
+	flex-wrap: wrap;
+	border-radius: 2vw;
+	box-shadow:0.1vw 0.1vw 0.1vw 0.1vw;
+
 }
 
-.productCard img{
-	width: 50%;
-} 
+.smallbox .halfbox{
+	padding-left: 70px;
+}
 
-.productCard h3, p{
+.smallbox > img{
+	width: 40%;
+	position: absolute;
+	margin-left: -60px;
+}
+
+
+
+.smallbox h1, p{
 	color: $cardTextColor;
 	text-align: center;
 	width: 100%;
+	padding: 3%;
 }
 
-.productCard h3, p{
-	
+.like_button{
+	  background-color: $likeButtonColor;
+	  cursor: pointer;
+	  border-radius: 5px;
+	  padding: $s-size / 1.5;
+	  border: none;
+	  font-size: $s-size;
+	  font-weight: 700;
+	  display: inline-block;
+	  width: 9em;
+
 }
+
+.smallbox h1, p, button{
+	display: flex;
+	flex-direction: column;
+}
+
 
